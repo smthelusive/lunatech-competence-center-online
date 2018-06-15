@@ -2,8 +2,8 @@
     "id": "kafka",
     "name": "Kafka",
     "description": "Kafka is a distributed streaming platform",
-    "headmaster": "",
-    "teachers": "",
+    "headmaster": "ikenna.ogbajie@lunatech.com",
+    "teachers": [],
     "tags": ["java", "scala"],
     "image": "",
     "topics": [
@@ -20,7 +20,7 @@
                     "tags": ["official"]
                 },
                 {
-                    "name": "Kafka: The Definitive guide",
+                    "name": "Meet Kafka - Kafka: The Definitive guide",
                     "type": "book",
                     "url": "https://www.confluent.io/resources/kafka-the-definitive-guide/",
                     "notes": "Chapter 1. Meet Kafka"
@@ -51,7 +51,7 @@
                     "url": "https://github.com/Landoop/fast-data-dev"
                 },
                 {
-                    "name": "Kafka Producers",
+                    "name": "Kafka Producers - Kafka: The Definitive guide",
                     "type": "documentation",
                     "url": "https://www.confluent.io/resources/kafka-the-definitive-guide/",
                     "notes": "Chapter 3. Kafka Producers"
@@ -62,7 +62,7 @@
                     "url": "https://kafka.apache.org/documentation/#theproducer"
                 },
                 {
-                    "name": "Kafka Consumer",
+                    "name": "Kafka Consumer - Kafka: The Definitive guide",
                     "type": "documentation",
                     "url": "https://www.confluent.io/resources/kafka-the-definitive-guide/",
                     "notes": "Chapter 4. Kafka Consumers"
