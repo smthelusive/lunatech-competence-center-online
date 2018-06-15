@@ -1,0 +1,100 @@
+{
+    "id": "kafka",
+    "name": "Kafka",
+    "description": "Kafka is a distributed streaming platform",
+    "headmaster": "",
+    "teachers": "",
+    "tags": ["java", "scala"],
+    "image": "",
+    "topics": [
+        {
+            "id": "kafka-basic",
+            "name": "Basic Kafka",
+            "description": "In order to get a good grasp of how kafka works, it is important to understand the log as a datastructure, topics, partitioning, replication and how producers and consumers work.",
+            "tags": ["required-for-junior"],
+            "resources": [
+                {
+                    "name": "Kafka Introduction",
+                    "type": "documentation",
+                    "url": "https://kafka.apache.org/intro",
+                    "tags": ["official"]
+                },
+                {
+                    "name": "Kafka: The Definitive guide",
+                    "type": "book",
+                    "url": "https://www.confluent.io/resources/kafka-the-definitive-guide/",
+                    "notes": "Chapter 1. Meet Kafka"
+                },
+                {
+                    "name": "The Log: What every sofware engineer should know about real-time data's unifying abstraction",
+                    "type": "documentation",
+                    "url": "https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying"
+                },
+                {
+                    "name": "The role of zookeeper in Kafka [Quora]",
+                    "type": "documentation",
+                    "url": "https://www.quora.com/What-is-the-actual-role-of-Zookeeper-in-Kafka-What-benefits-will-I-miss-out-on-if-I-don%E2%80%99t-use-Zookeeper-and-Kafka-together"
+                },
+                {
+                    "name": "The role of zookeeper in Kafka",
+                    "type": "documentation",
+                    "url": "http://www.waitingforcode.com/apache-kafka/the-role-of-apache-zookeeper-in-apache-kafka/read"
+                },
+                {
+                    "name": "Installiing Confluent Kafka",
+                    "type": "documentation",
+                    "url": "https://docs.confluent.io/current/installation/installing_cp.html"
+                },
+                {
+                    "name": "Landoop fast data dev for fast kafka develoopment",
+                    "type": "other",
+                    "url": "https://github.com/Landoop/fast-data-dev"
+                },
+                {
+                    "name": "Kafka Producers",
+                    "type": "documentation",
+                    "url": "https://www.confluent.io/resources/kafka-the-definitive-guide/",
+                    "notes": "Chapter 3. Kafka Producers"
+                },
+                {
+                    "name": "The Producer",
+                    "type": "documentation",
+                    "url": "https://kafka.apache.org/documentation/#theproducer"
+                },
+                {
+                    "name": "Kafka Consumer",
+                    "type": "documentation",
+                    "url": "https://www.confluent.io/resources/kafka-the-definitive-guide/",
+                    "notes": "Chapter 4. Kafka Consumers"
+                },
+                {
+                    "name": "The Consumer",
+                    "type": "documentation",
+                    "url": "https://kafka.apache.org/documentation/#theconsumer"
+                },
+                {
+                    "name": "Kafka Java Producer Client",
+                    "type": "documentation",
+                    "url": "https://kafka.apache.org/0100/javadoc/index.html?org/apache/kafka/clients/producer/KafkaProducer.html"
+                },
+                {
+                    "name": "Kafka Java Consumer Client",
+                    "type": "documentation",
+                    "url": "https://kafka.apache.org/0100/javadoc/index.html?org/apache/kafka/clients/producer/KafkaConsumer.html"
+                },
+                {
+                    "name": "Kafka CLI",
+                    "type": "documentation",
+                    "url": "https://www.cloudera.com/documentation/kafka/latest/topics/kafka_command_line.html"
+                },
+                {
+                    "name": "Message Delivery Semantics",
+                    "type": "documentation",
+                    "url": "https://kafka.apache.org/documentation/#semantics"
+                }
+            ]
+        }
+    ]
+
+
+}
